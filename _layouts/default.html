@@ -7,7 +7,7 @@
   <title>
     {{ page.title }}
     {% if page.category == 'blog' and page.url != '/blog/index.html' %}
-    - Sébastien Saunier
+    - Lataro Colombo
     {% endif %}
   </title>
   <link rel="stylesheet" href="/css/site.css">
@@ -26,7 +26,7 @@
   {% if page.category == 'blog' %}
     {% if page.photo %}
       <meta property="og:type" content="article">
-      <meta property="og:image" content="http://sebastien.saunier.me/images/posts/{{ page.photo }}" />
+      <!--<meta property="og:image" content="http://sebastien.saunier.me/images/posts/{{ page.photo }}" />-->
     {% endif %}
   {% endif %}
 </head>
@@ -47,23 +47,14 @@
       </nav>
       <div class="pull-right right logo">
         <div class="name">
-          <a href="/">Sébastien Saunier</a><br />
+          <a href="/">Lautaro Colombo</a><br />
           <small>
             <em>
-              {% if page.url == '/fr/index.html' %}
-                <!-- <a href="/fr">Coach Technique pour Startup</a> -->
-                CTO du <a href="https://www.lewagon.com/fr" target="_blank">Wagon</a>
-              {% else %}
-                <!-- <a href="/">Startup Technical Coach</a> -->
-                CTO at <a href="https://www.lewagon.com" target="_blank">Le Wagon</a>
-              {% endif %}
-              <a href="https://www.lewagon.com" target="_blank">
-                <img class="lewagon-logo" src="/images/le_wagon_logo.jpg" alt="Le Wagon">
-              </a>
+              Pentester <a href="https://mercadolibre.com" target="_blank">@Mercadolibre</a>
             </em>
           </small>
         </div>
-        <img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />
+        <!--<img class="avatar" src="/images/sebastien_saunier.jpg" alt="My profile picture" />-->
       </div>
       <div class="clear"></div>
     </header>
@@ -77,11 +68,11 @@
   <footer>
     <p>
       Made with <a href="http://jekyllrb.com/">Jekyll</a>,
-      hosted on <a href="https://github.com/ssaunier/ssaunier.github.io">Github Pages</a>.
+      hosted on <a href="https://github.com/fr-ez/fr-ez.github.io">Github Pages</a>.
     </p>
     <ul class="links">
       <li>
-        <a href="https://github.com/ssaunier" title="See my code on GitHub">
+        <a href="https://github.com/fr-ez" title="See my code on GitHub">
           <i class="icon-github"></i>
         </a>
       </li>
