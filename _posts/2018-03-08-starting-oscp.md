@@ -1,11 +1,13 @@
 ---
 layout: post
 title: I'm Starting OSCP
+description: "Finally, after many years, I'm starting OSCP"
+category: oscp
 ---
 
 Finally! After 2 years of wanting to do the [OSCP Certification](https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/) I'll start it by the end of the month.
 
-![Badass kid](https://i0.wp.com/www.primalsecurity.net/wp-content/uploads/2014/08/baby.jpg)
+![Badass kid]({{site.baseurl}}/images/posts/starting-oscp/kid.jpg)
 
 For those of you who don't know what's it's all about, you should definitely check it in the link above. In a nutshell, is a Penetration Testing Certification in which you have access to a huge practice lab, with multiple servers with varied vulnerabilities, a video course and pdf book, and a final exam that takes 24 hours to complete and another 24 hours to send a Professional Penetration Testing Report.
 

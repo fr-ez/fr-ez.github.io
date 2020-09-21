@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Failing the OSCP Exam
+description: "My take on failing the OSCP exam for the first time"
+category: oscp
 ---
 
 Date: 2018-09-27

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Failing the OSCP Exam... Again
+description: "My take on failing the OSCP exam for second time"
+category: oscp
 ---
 
 I want to talk about my experience of failing the OSCP exam twice.

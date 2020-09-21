@@ -1,6 +1,8 @@
 ---
 layout: post
 title: HackTheBox - Lame
+description: "Solution to box Lame from HackTheBox"
+category: hackthebox,ctf
 ---
 
 

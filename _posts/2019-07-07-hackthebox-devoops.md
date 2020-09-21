@@ -1,6 +1,8 @@
 ---
 layout: post
 title: HackTheBox - DevOops
+description: "Solution to box DevOops from HackTheBox"
+category: hackthebox,ctf
 ---
 
 # Enumeration
@@ -21,23 +23,23 @@ A quick Google search tells me that Gunicorn 19.7.1 is a WSGI Python server. Nat
 
 Proxying all requests through Burp, I access 10.10.10.91:5000 and see the following:
 
-![Gunicorn Page]({{site.baseurl}}/assets/htb-devoops/1.png)
+![Gunicorn Page]({{site.baseurl}}/images/posts/htb-devoops/1.png)
 
 I cannot find anything on the page, even in the source. I start gobuster, to see what are the directories of the application and luckily, it detects an upload directory. Checking it with Firefox, I see this:
 
-![Upload Dir]({{site.baseurl}}/assets/htb-devoops/2.png)
+![Upload Dir]({{site.baseurl}}/images/posts/htb-devoops/2.png)
 
 I send to repeater the request with a simple xml file.
 
-![Upload Dir]({{site.baseurl}}/assets/htb-devoops/3.png)
+![Upload Dir]({{site.baseurl}}/images/posts/htb-devoops/3.png)
 
 This gives me a 500 Internal Server Error, but when I structure the doc accordingly it works.
 
-![Upload Dir]({{site.baseurl}}/assets/htb-devoops/4.png)
+![Upload Dir]({{site.baseurl}}/images/posts/htb-devoops/4.png)
 
 If I check the URL, I can see that the file is being uploaded.
 
-![Upload Dir]({{site.baseurl}}/assets/htb-devoops/5.png)
+![Upload Dir]({{site.baseurl}}/images/posts/htb-devoops/5.png)
 
 # Exploitation
 
